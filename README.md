@@ -2,6 +2,7 @@
 This program prints your input like a snake.
 For example:
 (it prints space instead of _ .)
+
 Ozan_Bagiran  
 _Ozan_Bagiran  
 __Ozan_Bagiran  
