@@ -11,6 +11,9 @@ int main() {
     printf("Enter the lengt of snake: ");
     scanf("%d", &length);
     textLength = strlen(text);
+    for(j=0; j<textLength; j++)
+        if(text[j]=='_')
+            text[j]=' ';
     //satır satır say
     for (line = 1; line <= length; line++) {
         // baş satırlar hariç boşluk bırak. baş satıra boşluk bırakma.
